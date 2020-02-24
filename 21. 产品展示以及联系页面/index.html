@@ -1,0 +1,761 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>演示站点332</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="order by www.jsdaima.com" />
+    <link rel="stylesheet" href="skin/css/animate.css" />
+    <link rel="stylesheet" href="skin/css/owl.carousel.css" />
+    <link rel="stylesheet" href="skin/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="skin/css/bootstrap.css" />
+    <link rel="stylesheet" href="skin/css/bootstrap-paginator.css" />
+    <link rel="stylesheet" href="skin/css/global.css" />
+    <link rel="stylesheet" href="skin/css/css.css" />
+    <script src="skin/js/jquery.min.js"></script>
+    <script src="skin/js/owl.carousel.min.js"></script>
+    <script src="skin/js/bootstrap.js"></script>
+    <script src="skin/js/html5shiv.js"></script>
+    <script src="skin/js/respond.js"></script>
+    <script src="skin/js/global.js"></script>
+    <script src="skin/js/function.js"></script>
+  </head>
+  <body>
+    <!--公共头部开始-->
+    <div id="header">
+      <!--logo-->
+      <div class="logo">
+        <img src="skin/images/hs_logo.jpg" alt="演示站点332" />
+      </div>
+      <!--pc导航-->
+      <div class="menu_box hidden-sm hidden-xs">
+        <ul class="menu">
+          <li class="current">
+            <div class="bottom_border"><i></i></div>
+            <a href="/"><span>首页</span> </a>
+          </li>
+          <li>
+            <div class="bottom_border"><i></i></div>
+            <a href="/a/about/"><span>关于我们</span></a>
+            <div class="menu_2">
+              <ul></ul>
+            </div>
+          </li>
+          <li>
+            <div class="bottom_border"><i></i></div>
+            <a href="/a/news/"><span>新闻动态</span></a>
+            <div class="menu_2">
+              <ul>
+                <li><a href="/a/gongsixinwen/">公司新闻</a></li>
+
+                <li><a href="/a/xingyexinwen/">行业新闻</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="bottom_border"><i></i></div>
+            <a href="/a/products/"><span>最新菜品</span></a>
+            <div class="menu_2">
+              <ul>
+                <li><a href="/a/mztp/">秘制汤品</a></li>
+
+                <li><a href="/a/tsms/">特色美食</a></li>
+
+                <li><a href="/a/jxzc/">精选蒸菜</a></li>
+
+                <li><a href="/a/ssdj/">寿司大卷</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="bottom_border"><i></i></div>
+            <a href="/a/case/"><span>案例展示</span></a>
+            <div class="menu_2">
+              <ul></ul>
+            </div>
+          </li>
+          <li>
+            <div class="bottom_border"><i></i></div>
+            <a href="/a/joins/"><span>在线留言</span></a>
+            <div class="menu_2">
+              <ul></ul>
+            </div>
+          </li>
+          <li>
+            <div class="bottom_border"><i></i></div>
+            <a href="/a/contact/"><span>联系我们</span></a>
+            <div class="menu_2">
+              <ul></ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="menu_icon hidden-md hidden-lg">
+        <img src="skin/images/menuicon.png" />
+      </div>
+    </div>
+    <!--手机弹出导航-->
+    <ul class="wrap_menu hidden-md hidden-lg">
+      <li class="menu_close">x</li>
+      <li><a>快速导航</a></li>
+      <li class="menu_lists"><a href="/">首页</a></li>
+      <li class="menu_lists">
+        <a href="/a/about/">关于我们</a>
+        <div class="wrap_menu_2"></div>
+      </li>
+      <li class="menu_lists">
+        <a href="javascript:void(0)" href="/a/news/">新闻动态</a>
+        <p class="right">+</p>
+
+        <div class="wrap_menu_2">
+          <a href="/a/gongsixinwen/"> <i></i> <span>公司新闻</span> </a>
+          <a href="/a/xingyexinwen/"> <i></i> <span>行业新闻</span> </a>
+        </div>
+      </li>
+      <li class="menu_lists">
+        <a href="javascript:void(0)" href="/a/products/">最新菜品</a>
+        <p class="right">+</p>
+
+        <div class="wrap_menu_2">
+          <a href="/a/mztp/"> <i></i> <span>秘制汤品</span> </a>
+          <a href="/a/tsms/"> <i></i> <span>特色美食</span> </a>
+          <a href="/a/jxzc/"> <i></i> <span>精选蒸菜</span> </a>
+          <a href="/a/ssdj/"> <i></i> <span>寿司大卷</span> </a>
+        </div>
+      </li>
+      <li class="menu_lists">
+        <a href="/a/case/">案例展示</a>
+        <div class="wrap_menu_2"></div>
+      </li>
+      <li class="menu_lists">
+        <a href="/a/joins/">在线留言</a>
+        <div class="wrap_menu_2"></div>
+      </li>
+      <li class="menu_lists">
+        <a href="/a/contact/">联系我们</a>
+        <div class="wrap_menu_2"></div>
+      </li>
+    </ul>
+    <!--手机弹出导航时，黑色屏罩-->
+    <div class="black_cloth hidden-lg hidden-md"></div>
+    <!--banner大图-->
+    <div id="banner">
+      <div id="owl-demo" class="owl-carousel">
+        <a class="item"
+          ><img src="uploads/180823/1-1PR3160201E4.jpg" alt="幻灯2"
+        /></a>
+        <a class="item"
+          ><img src="uploads/180823/1-1PR3155S0W6.jpg" alt="幻灯1"
+        /></a>
+        <a class="item"><img src="uploads/180823/2.jpg" alt="幻灯2"/></a>
+        <a class="item"><img src="uploads/180823/3.jpg" alt="幻灯1"/></a>
+      </div>
+    </div>
+    <!--公共头部结束-->
+    <!--主体部分-->
+    <div id="content">
+      <div class="pro">
+        <div class="pc_proTitle_box hidden-sm hidden-xs">
+          <div class="pc_proTitle">
+            <div class="pc_proTitle_left">
+              <h2>HS 最热菜品</h2>
+              <p>HOT PRODUCTS</p>
+            </div>
+            <div class="pc_proTitle_right">
+              <ul>
+                <li><a>顾客必点</a></li>
+                <li><a>寿司大卷</a></li>
+                <li><a>秘制汤品</a></li>
+                <li><a>独家秘制</a></li>
+                <li><a>精选小食</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="phone_proTitle_box hidden-lg hidden-md">
+          <div class="phone_proTitle_left">
+            <h2>最新菜品</h2>
+            <p>PRODUCTS</p>
+          </div>
+          <div class="phone_proTitle_right">
+            <ul>
+              <li><a>顾客必点</a></li>
+              <li><a>寿司大卷</a></li>
+              <li><a>秘制汤品</a></li>
+              <li><a>独家秘制</a></li>
+              <li><a>精选小食</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pro_list">
+          <div class="pro_list_box">
+            <ul class="col-xs-12">
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/mztp/60.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180905/1-1PZ5093530643.jpg"
+                    alt="秘制汤品-06"
+                  />
+                </a>
+                <a href="/a/mztp/60.html" class="pro_title">秘制汤品-06</a>
+                <a href="/a/mztp/60.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/mztp/3.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH6162Ta11.jpg"
+                    alt="秘制汤品-01"
+                  />
+                </a>
+                <a href="/a/mztp/3.html" class="pro_title">秘制汤品-01</a>
+                <a href="/a/mztp/3.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/mztp/40.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH6162941463.jpg"
+                    alt="秘制汤品-05"
+                  />
+                </a>
+                <a href="/a/mztp/40.html" class="pro_title">秘制汤品-05</a>
+                <a href="/a/mztp/40.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/mztp/42.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH616302a21.jpg"
+                    alt="秘制汤品-04"
+                  />
+                </a>
+                <a href="/a/mztp/42.html" class="pro_title">秘制汤品-04</a>
+                <a href="/a/mztp/42.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/mztp/4.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH6162914638.jpg"
+                    alt="秘制汤品-03"
+                  />
+                </a>
+                <a href="/a/mztp/4.html" class="pro_title">秘制汤品-03</a>
+                <a href="/a/mztp/4.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/mztp/41.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH6163004H1.jpg"
+                    alt="秘制汤品-02"
+                  />
+                </a>
+                <a href="/a/mztp/41.html" class="pro_title">秘制汤品-02</a>
+                <a href="/a/mztp/41.html" class="pro_text"></a>
+              </li>
+            </ul>
+            <ul class="col-xs-12 none">
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/62.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180905/1-1PZ5093Q2602.jpg"
+                    alt="特色美食-06"
+                  />
+                </a>
+                <a href="/a/tsms/62.html" class="pro_title">特色美食-06</a>
+                <a href="/a/tsms/62.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/61.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180905/1-1PZ5093K3D3.jpg"
+                    alt="特色美食-05"
+                  />
+                </a>
+                <a href="/a/tsms/61.html" class="pro_title">特色美食-05</a>
+                <a href="/a/tsms/61.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/46.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH6163219505.jpg"
+                    alt="特色美食-04"
+                  />
+                </a>
+                <a href="/a/tsms/46.html" class="pro_title">特色美食-04</a>
+                <a href="/a/tsms/46.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/45.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH61632451R.jpg"
+                    alt="特色美食-03"
+                  />
+                </a>
+                <a href="/a/tsms/45.html" class="pro_title">特色美食-03</a>
+                <a href="/a/tsms/45.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/44.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH6163524425.jpg"
+                    alt="特色美食-02"
+                  />
+                </a>
+                <a href="/a/tsms/44.html" class="pro_title">特色美食-02</a>
+                <a href="/a/tsms/44.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/43.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH6163152550.jpg"
+                    alt="特色美食-01"
+                  />
+                </a>
+                <a href="/a/tsms/43.html" class="pro_title">特色美食-01</a>
+                <a href="/a/tsms/43.html" class="pro_text"></a>
+              </li>
+            </ul>
+            <ul class="col-xs-12 none">
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/62.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180905/1-1PZ5093Q2602.jpg"
+                    alt="特色美食-06"
+                  />
+                </a>
+                <a href="/a/tsms/62.html" class="pro_title">特色美食-06</a>
+                <a href="/a/tsms/62.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/61.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180905/1-1PZ5093K3D3.jpg"
+                    alt="特色美食-05"
+                  />
+                </a>
+                <a href="/a/tsms/61.html" class="pro_title">特色美食-05</a>
+                <a href="/a/tsms/61.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/46.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH6163219505.jpg"
+                    alt="特色美食-04"
+                  />
+                </a>
+                <a href="/a/tsms/46.html" class="pro_title">特色美食-04</a>
+                <a href="/a/tsms/46.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/45.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH61632451R.jpg"
+                    alt="特色美食-03"
+                  />
+                </a>
+                <a href="/a/tsms/45.html" class="pro_title">特色美食-03</a>
+                <a href="/a/tsms/45.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/44.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH6163524425.jpg"
+                    alt="特色美食-02"
+                  />
+                </a>
+                <a href="/a/tsms/44.html" class="pro_title">特色美食-02</a>
+                <a href="/a/tsms/44.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/43.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH6163152550.jpg"
+                    alt="特色美食-01"
+                  />
+                </a>
+                <a href="/a/tsms/43.html" class="pro_title">特色美食-01</a>
+                <a href="/a/tsms/43.html" class="pro_text"></a>
+              </li>
+            </ul>
+            <ul class="col-xs-12 none">
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/62.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180905/1-1PZ5093Q2602.jpg"
+                    alt="特色美食-06"
+                  />
+                </a>
+                <a href="/a/tsms/62.html" class="pro_title">特色美食-06</a>
+                <a href="/a/tsms/62.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/61.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180905/1-1PZ5093K3D3.jpg"
+                    alt="特色美食-05"
+                  />
+                </a>
+                <a href="/a/tsms/61.html" class="pro_title">特色美食-05</a>
+                <a href="/a/tsms/61.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/46.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH6163219505.jpg"
+                    alt="特色美食-04"
+                  />
+                </a>
+                <a href="/a/tsms/46.html" class="pro_title">特色美食-04</a>
+                <a href="/a/tsms/46.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/45.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH61632451R.jpg"
+                    alt="特色美食-03"
+                  />
+                </a>
+                <a href="/a/tsms/45.html" class="pro_title">特色美食-03</a>
+                <a href="/a/tsms/45.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/44.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH6163524425.jpg"
+                    alt="特色美食-02"
+                  />
+                </a>
+                <a href="/a/tsms/44.html" class="pro_title">特色美食-02</a>
+                <a href="/a/tsms/44.html" class="pro_text"></a>
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <a href="/a/tsms/43.html" class="pro_img">
+                  <img
+                    src="uploads/allimg/180726/1-1PH6163152550.jpg"
+                    alt="特色美食-01"
+                  />
+                </a>
+                <a href="/a/tsms/43.html" class="pro_title">特色美食-01</a>
+                <a href="/a/tsms/43.html" class="pro_text"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="index_about">
+        <div class="col-xs-12 hidden-lg hidden-md hidden-sm">
+          <img src="skin/images/index_07.jpg" />
+        </div>
+        <div class="index_about_left col-sm-6 hidden-xs"></div>
+        <div class="index_about_right col-sm-6 col-xs-12">
+          <div class="index_about_main">
+            <h2 class="index_about_title">关于我们</h2>
+            <div class="index_about_title2">ABOUT</div>
+            <div class="index_about_title3">演示站点332</div>
+            <p>
+              北京某某餐饮有限公司成立于2001年，18年专注于发展中国及海外华人聚集区潜力特色菜系。拥有了现代化配置的配送中心，旗下8个品牌各路菜系，肩负着某某的企业使命，即：提供给每一位顾客满意的就餐体验；给每一名员工提供充分发挥个人才能、晋升发展的事业平台。
+              某某始终将互联网+与规模化战略作为企业品牌发展的重要目标。2012年，外送中心成立，标志着某某互联网新兴餐饮模式的正式开启。2013年配送中心成立，某某迈出规模化管理模式里程碑的第一步。
+              某某稳健的企业文化和商业模式，高效的营运文化，超强的团队凝聚力与内驱力，以及顾客体验至上的品牌发展重心，为某某取得优异的财政业绩奠定了坚实的基础。
+              2016年年度截止到2017年度，某某同店营业额增长率为5%，同店交易量增长率超6.5%，栖身于行业前列，在门店即将突破百家...
+            </p>
+          </div>
+          <a href="/a/about/" class="more">>more</a>
+        </div>
+      </div>
+      <div class="yet">
+        <div class="yet_title">广东省广州市某某餐饮有限公司</div>
+        <p>
+          如果您有意向开家肯德基汉堡店，或想咨询开店信息，可以拨打 010-88888888
+        </p>
+      </div>
+      <div class="index_news">
+        <div class="container">
+          <div class="index_news_title">
+            <a href="/a/news/">
+              <div class="index_news_title1"><b>新闻动态</b></div>
+              <div class="index_news_title2">NEWS</div>
+            </a>
+          </div>
+          <div class="boxx">
+            <div class="news_box">
+              <div class="news">
+                <div class="news_list">
+                  <div class="news_list_image">
+                    <a href="/a/xingyexinwen/2.html">
+                      <img
+                        src="uploads/180905/1-1PZ5092633237.jpg"
+                        alt="冬天保护血管的8种食物"
+                      />
+                    </a>
+                    <p>
+                      <a href="/a/xingyexinwen/2.html">冬天保护血管的8种食物</a>
+                    </p>
+                  </div>
+                  <div class="news_list_text">
+                    <i></i>
+                    <span>
+                      <a href="/a/xingyexinwen/2.html">
+                        血管尤其是冠状动脉在冬季寒冷时容易收缩、痉挛，发生供血不足，并可能导致栓塞，因此要十分注意保暖。而且不少人的心血管疾病就是长期饮食不当导致的，需要及时调理恢复。那...
+                      </a>
+                    </span>
+                  </div>
+                </div>
+                <div class="news_list">
+                  <div class="news_list_image">
+                    <a href="/a/xingyexinwen/1.html">
+                      <img
+                        src="uploads/180905/1-1PZ5092G4D8.jpg"
+                        alt="冬季饮食养生，这些小常识要记住！"
+                      />
+                    </a>
+                    <p>
+                      <a href="/a/xingyexinwen/1.html"
+                        >冬季饮食养生，这些小常识要记住！</a
+                      >
+                    </p>
+                  </div>
+                  <div class="news_list_text">
+                    <i></i>
+                    <span>
+                      <a href="/a/xingyexinwen/1.html">
+                        冬季寒冷，饮食上要有所改变，多吃一些御寒保暖的食物，这样不仅能给身体取暖也能起到养生的效果，下面小编就来告诉大家冬季饮食养生的一些小常识，希望对大家有帮助。
+                        一、常...
+                      </a>
+                    </span>
+                  </div>
+                </div>
+                <div class="news_list">
+                  <div class="news_list_image">
+                    <a href="/a/gongsixinwen/18.html">
+                      <img
+                        src="uploads/180905/1-1PZ509254HU.jpg"
+                        alt="熙璟城春季养生堂 提供王室秘制汤品"
+                      />
+                    </a>
+                    <p>
+                      <a href="/a/gongsixinwen/18.html"
+                        >熙璟城春季养生堂 提供王室秘制汤品</a
+                      >
+                    </p>
+                  </div>
+                  <div class="news_list_text">
+                    <i></i>
+                    <span>
+                      <a href="/a/gongsixinwen/18.html">
+                        据透露，此次的养生堂活动，将会推出三大秘宝：一、王室滋补凤凰蜜汁，具有益气、养胃、生津功能，还能补益五脏，治脾胃虚弱，温精养血；二、宫庭秘制养生汤，可以调节人体大...
+                      </a>
+                    </span>
+                  </div>
+                </div>
+                <div class="news_list">
+                  <div class="news_list_image">
+                    <a href="/a/gongsixinwen/26.html">
+                      <img
+                        src="uploads/180828/1-1PRQFR6113.jpg"
+                        alt="餐饮节日营销，你是挖了坑还是跳了井？"
+                      />
+                    </a>
+                    <p>
+                      <a href="/a/gongsixinwen/26.html"
+                        >餐饮节日营销，你是挖了坑还是跳了井？</a
+                      >
+                    </p>
+                  </div>
+                  <div class="news_list_text">
+                    <i></i>
+                    <span>
+                      <a href="/a/gongsixinwen/26.html">
+                        国庆已进入倒计时，还有3天的时间人们就要迎来国庆+中秋的8天小长假了，而这个小长假对于餐饮人来说则是生意的黄金期，相信大家都已经一切准备就绪了吧？
+                        节日营销固然好，但是...
+                      </a>
+                    </span>
+                  </div>
+                </div>
+                <div class="news_list">
+                  <div class="news_list_image">
+                    <a href="/a/gongsixinwen/27.html">
+                      <img
+                        src="uploads/180828/1-1PRQFQ0961.jpg"
+                        alt="开餐厅经营前先科普5大经验"
+                      />
+                    </a>
+                    <p>
+                      <a href="/a/gongsixinwen/27.html"
+                        >开餐厅经营前先科普5大经验</a
+                      >
+                    </p>
+                  </div>
+                  <div class="news_list_text">
+                    <i></i>
+                    <span>
+                      <a href="/a/gongsixinwen/27.html">
+                        1、备用资金很重要、非常重要
+                        开餐厅要有非常清晰的资金使用安排，需要足够的备用资金，开店压力在资金流动去向。以餐厅为例，一个小餐厅的经营周期在一个月左右。这一个月员...
+                      </a>
+                    </span>
+                  </div>
+                </div>
+                <div class="news_list">
+                  <div class="news_list_image">
+                    <a href="/a/gongsixinwen/28.html">
+                      <img
+                        src="uploads/180828/1-1PRQFK3110.jpg"
+                        alt="中国八大菜系介绍"
+                      />
+                    </a>
+                    <p>
+                      <a href="/a/gongsixinwen/28.html">中国八大菜系介绍</a>
+                    </p>
+                  </div>
+                  <div class="news_list_text">
+                    <i></i>
+                    <span>
+                      <a href="/a/gongsixinwen/28.html">
+                        每个地方的文化跟口味习惯都不同，形成了全国各地的菜肴都有着自己的特色与风味
+                        我们一起来看看我国的八大菜系的特点也特色菜品吧 川菜：
+                        川菜即四川菜肴，是中国特色传统的四...
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="news_btn">
+              <div class="news_prev"><img src="skin/images/left.png" /></div>
+              <div class="news_next"><img src="skin/images/right.png" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cooperative_partner">
+        <div class="container">
+          <h2>合作伙伴</h2>
+          <h3>
+            我们为企业提供多种服务，帮助各种行业不同规模的企业向客户提供最便捷的服务
+          </h3>
+          <div class="friend">
+            <div class="col-md-2 col-sm-4 col-xs-6">
+              <a>
+                <img
+                  src="uploads/allimg/180904/1-1PZ4161Z50-L.jpg"
+                  alt="美团网"
+                />
+              </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+              <a>
+                <img
+                  src="uploads/allimg/180904/1-1PZ4161P90-L.jpg"
+                  alt="CITI"
+                />
+              </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+              <a>
+                <img
+                  src="uploads/allimg/180904/1-1PZ4161I60-L.jpg"
+                  alt="广汽集团"
+                />
+              </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+              <a>
+                <img
+                  src="uploads/allimg/180904/1-1PZ4161H00-L.jpg"
+                  alt="康佳集团"
+                />
+              </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+              <a>
+                <img
+                  src="uploads/allimg/180904/1-1PZ4161F50-L.jpg"
+                  alt="三星电子"
+                />
+              </a>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6">
+              <a>
+                <img
+                  src="uploads/allimg/180904/1-1PZ41616410-L.jpg"
+                  alt="长城汽车"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right top hidden-lg hidden-md hidden-sm">
+        <img src="skin/images/top.png" />
+      </div>
+    </div>
+    <!--公共底部开始-->
+    <!--pc底部-->
+
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          Copyright &copy; 2018 js代码（www.jsdaima.com） ICP备XXXXXXXX号
+          技术支持：<a
+            style="color:#fff;"
+            href="http://www.jsdaima.com/"
+            title="js代码"
+            target="_blank"
+            >js代码</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!--手机端底部-->
+    <div class="pad hidden-lg hidden-md hidden-sm"></div>
+    <!--手机底部导航-->
+    <div class="wrap_footer hidden-lg hidden-md hidden-sm">
+      <dl class="navigation">
+        <a>
+          <dt><img src="skin/images/wap_bot1.png" /></dt>
+          <dd>导航</dd>
+        </a>
+      </dl>
+      <dl>
+        <a href="tel:010-88888888">
+          <dt><img src="skin/images/wap_bot2.png" /></dt>
+          <dd>电话</dd>
+        </a>
+      </dl>
+      <dl>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=123456789&site=qq&menu=yes">
+          <dt><img src="skin/images/wap_bot3.png" /></dt>
+          <dd>客服</dd>
+        </a>
+      </dl>
+      <dl>
+        <a href="http://map.baidu.com/">
+          <dt><img src="skin/images/wap_bot4.png" /></dt>
+          <dd>地图</dd>
+        </a>
+      </dl>
+      <dl>
+        <a class="w_searchButton">
+          <dt><img src="skin/images/wap_bot6.png" /></dt>
+          <dd>搜索</dd>
+        </a>
+      </dl>
+    </div>
+    <!--手机搜索框-->
+    <div class="wrap_search_input hidden-lg hidden-md hidden-sm">
+      <form name="formsearch" action="/plus/search.php">
+        <input type="hidden" name="kwtype" value="0" />
+        <input
+          name="q"
+          value="请输入搜索关键字"
+          onfocus="if(this.value=='请输入搜索关键字'){this.value='';}"
+          onblur="if(this.value==''){this.value='请输入搜索关键字';}"
+        />
+        <p onclick="$('form').submit()">搜索</p>
+      </form>
+    </div>
+    <!--公共底部结束-->
+  </body>
+</html>
